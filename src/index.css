@@ -256,6 +256,7 @@ P{
     #courses .courses-container .course .content .price del{
         margin-right: 10px;
         font-weight: 300;
+         
     } 
     #courses .courses-container .course .content .course-info {
         display: flex;
@@ -281,13 +282,19 @@ P{
         color: var(--sky-blue);
         border-radius: 25px;
         font-weight: 500;
+          text-align: center;
+        margin: auto;
+        display: block;
     }
       #courses .courses-container .course .content .btn-learn:hover  {
         background-color: var(--light-sky-blue);
+      
       } 
+
     #courses .courses-container .course .content .text-secondary{
         color: var(--green);
         font-weight: 600;
+         
     }
 /** Courses End */
 
@@ -337,4 +344,64 @@ P{
     margin-top: 10px;
 }
 /** Reviews End */
+/** Join Us Start*/
+#join-us{
+    padding: 6rem 0;
+}
+#join-us .content{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+
+}
+#join-us .content h2{
+    font-size: 35px;
+    margin: 15px 0;
+    color: var(--dark-blue);
+}
+#join-us .content p{
+    color: var(--light-gray);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#join-us .content .text-primary{
+    color: var(--sky-blue);
+    font-weight: 600;
+    font-size: 14px;
+    font-weight: 600;
+}
+#join-us .content .email{
+    color: var(--green);
+    font-weight: 600;
+    font-size: 14px;
+}
+#join-us .content form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#join-us .content form input{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid var(--sky-blue);
+    width: 250px;
+    margin-right: 10px;
+    color: var(--light-sky-blue);
+}
+#join-us .content form input:hover{
+    border-color: var(--light-sky-blue);
+
+}
+#join-us .content form button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: var(--sky-blue);
+    color: #fff;
+    font-weight: 500;
+}
+
+
+/** Join Us End*/
 /**Main End*/
