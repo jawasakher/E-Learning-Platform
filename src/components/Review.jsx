@@ -9,7 +9,7 @@ function Review({ name, job, img, description,stars }) {
                 <img src={img} alt={name} />
                 <div>
                     <h3 className="text-primary">{name}</h3>
-                    <p>{job}</p>
+                    <p className="job">{job}</p>
                 </div>
             </div>
             

@@ -85,7 +85,7 @@ export const ratingData = [
     },
     {
         id: 2,
-        stars:" ★ ★ ★ ★ ",
+        stars:" ★ ★ ★  ",
         img:"./persone.2.jpg",
         description:"The course provided a comprehensive introduction to programming concepts and languages, making it an excellent choice for beginners.",
         name:"Rawan Sakher",
@@ -93,7 +93,7 @@ export const ratingData = [
     },
     {
         id: 3,
-        stars:" ★ ★ ★ ★ ★ ",
+        stars:" ★  ",
         img:"./persone.3.jpg",
         description:"The course provided a comprehensive introduction to programming concepts and languages, making it an excellent choice for beginners.",
         name:"Ali Sakher",

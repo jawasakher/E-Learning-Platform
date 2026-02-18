@@ -290,4 +290,51 @@ P{
         font-weight: 600;
     }
 /** Courses End */
+
+/** Reviews Start */
+#review {
+    padding-bottom: 7rem;
+    text-align: center;
+}
+#reviews .ratings{
+   display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12rem;
+    margin-top: 5rem;
+    text-align: center;
+    
+
+}
+#reviews .ratings .rating img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin:20px auto;
+    display: block;
+    
+}
+#reviews .ratings .rating .stars{
+    color: var(--yellow);
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+#reviews .ratings .rating .description{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--light-gray);
+}
+#reviews .ratings .rating .text-primary{
+    text-align: center;
+}
+#reviews .ratings .rating .job{
+    text-align: center;
+    margin-top: 10px;
+}
+/** Reviews End */
 /**Main End*/
