@@ -1,12 +1,12 @@
-
-import Courses from "./Courses";
 import Home from "./Home";
+import Courses from "./Courses";
 import SectionHeader from "./SectionHeader";
 function Main(){
     return<main>
         <Home />
-        <SectionHeader/>
         <Courses/>
+        <SectionHeader/>
+        
         
     </main>
 }

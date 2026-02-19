@@ -1,3 +1,4 @@
+
 function JoinUs(){
     return<section id="join-us">
     <div className="content">
@@ -10,6 +11,7 @@ function JoinUs(){
         <input type="email" name="email" id="email" placeholder="Your Email" />
        <button type="submit">Subscribe</button>
        </form>
+       
     </div>
 
     </section>;
