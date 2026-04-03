@@ -1,16 +1,122 @@
-# React + Vite
+# Personal Website – Frontend Engineering Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+![Vite](https://img.shields.io/badge/Build-Vite-purple?logo=vite)
+![Status](https://img.shields.io/badge/Status-Production--Ready-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="website-preview.png" alt="Website Preview" width="850"/>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Summary
 
-## React Compiler
+This personal website was built as a production-oriented frontend project to demonstrate clean architecture, responsive design, and scalable component structure.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal of this project is to reflect practical frontend engineering skills aligned with modern industry standards.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Engineering Principles Applied
+
+### 1. Component-Based Architecture
+- Reusable and isolated UI components
+- Clear separation of concerns
+- Scalable folder organization
+
+### 2. Clean & Maintainable Code
+- Structured file hierarchy
+- Consistent naming conventions
+- ESLint configuration for code quality
+
+### 3. Performance Optimization
+- Fast development workflow with Vite
+- Optimized production build
+- Minimal runtime overhead
+
+### 4. Responsive Design
+- Mobile-first approach
+- Cross-device compatibility
+- Flexible layout system
+
+### 5. Accessibility Awareness
+- Semantic HTML structure
+- Proper interactive elements
+- Clear visual hierarchy
+
+---
+
+## Tech Stack
+
+- React
+- Vite
+- Modern JavaScript (ES Modules)
+- CSS
+- ESLint
+
+---
+
+## Project Structure
+
+my-website/
+│
+├── public/
+│   └── website-preview.png
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+---
+
+## Installation & Local Development
+
+Clone the repository:
+
+git clone https://github.com/jawasakher/my-website.git
+Install dependencies:
+
+npm install
+Run development server:
+
+npm run dev
+---
+
+## Production Build
+
+Generate optimized build:
+
+npm run build
+Preview production version:
+
+npm run preview
+---
+
+## Future Technical Improvements
+
+- TypeScript migration
+- Unit testing integration (Vitest / Jest)
+- CI/CD automation
+- SEO enhancement
+- Performance auditing (Lighthouse)
+- Dark mode implementation
+
+---
+
+## About the Developer
+
+Jawa Sakher  
+Frontend-focused developer with strong interest in scalable UI systems, performance optimization, and maintainable architecture.
+
+GitHub: https://github.com/jawasakher
+
+---
+
+This project represents my practical application of modern frontend engineering principles and readiness to contribute to production-level systems.
