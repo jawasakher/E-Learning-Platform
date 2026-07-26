@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 <p align="center">
-  <img src="website-preview.png" alt="Website Preview" width="850"/>
+  <img src="E-Learning-Platform.png" alt="Website Preview" width="850"/>
 </p>
 
 ## Project Summary
