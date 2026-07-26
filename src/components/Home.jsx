@@ -1,9 +1,5 @@
 import { cardDate } from "../../data";
-<<<<<<< HEAD
 import Card from "./Card";
-=======
-import Card from "./card";
->>>>>>> dd3ec5ff26d337f47e521d1a26be2b33ad48fbe3
 
 
 function Home() {
